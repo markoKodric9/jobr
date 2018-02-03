@@ -1,0 +1,183 @@
+body{
+  position: relative;
+  min-height: 100vh;
+}
+
+a:focus{
+  outline: none;
+}
+
+fieldset{
+  margin-bottom: 30px;
+}
+
+footer{
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  min-height: auto;
+}
+
+.panel-danger.danger-background div{
+  color: #a94442 !important
+}
+
+.apply-name{
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.pt-30{
+  padding-top: 30px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+
+.overflow-text{
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.alert{
+  font-weight: 500;
+}
+
+.checkbox-inline{
+  margin-left: 0 !important; /*subscriptions*/
+}
+
+
+.btn-reply{
+  float:right;
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+.navbar-custom{
+  margin-bottom: 30px !important;
+}
+
+
+.company-links{
+  color:inherit;
+  text-decoration: none;
+}
+
+input[type="radio"] {
+  width: auto !important;
+}
+
+.desc{
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+.terms{
+  color:#ff4c4c;
+}
+
+.apply-success{
+  color: #34bf49;
+}
+
+.apply-danger{
+  color:#ff4c4c;
+}
+
+.panel-header{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.disabled{
+  cursor: not-allowed !important;
+}
+
+.block-link{
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 480px) {
+    .apply-name {
+        font-size: 16px !important;
+    }
+
+    .greeting{
+      font-size: 20px;
+    }
+
+    .region{
+      font-size: 18px;
+    }
+
+    .pt-30{
+      padding-top: 15px;
+    }
+
+    form .col-md-10{
+        padding-right: 0;
+    }
+
+    form .col-md-2{
+        margin-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .video-header{
+      margin-bottom: 0
+    }
+
+    .jobs-row{
+      margin-top:0
+      padding-top:20px;
+    }
+
+    .jobs-row .col-md-4{
+      padding-left: 15px;
+    }
+
+    .jobs-row .col-md-8 {
+      padding: 0 15px;
+    }
+
+    .video-wrapper, .header-overlay {
+      height: inherit;
+    }
+
+    .jobs .jobs-row{
+      padding-top: 0;
+    }
+
+    .header-content{
+      margin-top: -30px;
+    }
+
+
+    .navbar-collapse.collapse.in {
+       background-color: #fff !important;
+       border-bottom: 1px solid #b3b3b3 ;
+    }
+
+    .navbar-collapse.collapse.in li a {
+       color: #000 !important;
+    }
+
+    .navbar-msg li{
+      display: inline-block !important;
+      width: 32%;
+      font-size: 16px;
+    }
+
+    .navbar-msg li a{
+      line-height: 15px !important;
+      text-align: center;
+    }
+
+}
